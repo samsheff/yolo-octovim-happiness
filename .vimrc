@@ -114,8 +114,6 @@ nmap <leader>gA :Gcommit --amend -v<CR>
 nmap <leader>gv :Gcommit -v<CR>
 nmap <leader>gp :Git push<CR>
 
-nmap <C-W>! <Plug>Kwbd
-
 let g:UltiSnipsListSnippets="<S-C-J>"
 let g:UltiSnipsExpandTrigger="<C-J>"
 let g:UltiSnipsJumpForwardTrigger="<C-J>"
