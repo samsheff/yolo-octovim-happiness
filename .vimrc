@@ -45,6 +45,7 @@ Bundle 'pangloss/vim-javascript'
 
 " iOS
 Bundle "eraserhd/vim-ios"
+Bundle "jiangmiao/auto-pairs"
 
 " Styling
 Bundle 'groenewege/vim-less'
