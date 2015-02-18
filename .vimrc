@@ -90,7 +90,8 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'sjl/gundo.vim'
 
 " Data Formatting
-Bundle 'chrisbra/csv.vim' 
+Bundle 'chrisbra/csv.vim'
+Bundle 'tpope/vim-sleuth'
 
 " Deps
 Bundle 'tomtom/tlib_vim'
@@ -129,7 +130,7 @@ let g:syntastic_auto_loc_list=2
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 let NERDTreeChDirMode = 2
-let NERDTreeIgnore = ['\.git$', '\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', '\~$', '^tmp$', '^log$', '\.bundle$', '\.sass-cache', '\.swp$', '^build$', '^coverage$', '\.sock$', '\.ctrlp_cache', '.DS_Store']
+let NERDTreeIgnore = ['\.git$', '\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', '\~$', '^tmp$', '^log$', '\.bundle$', '\.sass-cache', '\.swp$', '^build$', '^coverage$', '\.sock$', '\.ctrlp_cache', '.DS_Store', '\.meta']
 let NERDTreeQuitOnOpen = 0
 let NERDTreeShowHidden = 1
 let g:NERDTreeWinSize = 30
@@ -140,8 +141,6 @@ let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/
 let g:vitality_fix_focus = 0
 
 au BufNewFile,BufRead Podfile,*.podspec set filetype=ruby
-
-:set tabstop=4 shiftwidth=4 expandtab
 
 syntax enable
 filetype plugin indent on
